@@ -1,0 +1,76 @@
+{
+  "props": [],
+  "components": {
+    "fileChooser": {
+      "type": "script\\FileChooserScript",
+      "x": 624,
+      "y": 240,
+      "props": {
+        "filterName": "Все файлы",
+        "filterExtensions": "*.*",
+        "filterAny": "0",
+        "inputNode": "",
+        "actionNode": ""
+      }
+    },
+    "loggerWrapper": {
+      "type": "bundle\\loggerwrapper\\LoggerWrapper",
+      "x": 400,
+      "y": 240,
+      "props": {
+        "filename": "./app.log",
+        "dateFormat": "MM/dd/YYYY HH:mm:ss",
+        "lineFormat": ":date [:event] :message"
+      }
+    },
+    "timerAlt": {
+      "type": "script\\TimerScript",
+      "x": 64,
+      "y": 224,
+      "props": {
+        "interval": 1,
+        "repeatable": "1",
+        "autoStart": false
+      }
+    },
+    "FileChooser": {
+      "type": "script\\DirectoryChooserScript",
+      "x": 464,
+      "y": 192,
+      "props": {
+        "title": "Выберите папку для сборки",
+        "initialDirectory": "C:/",
+        "inputNode": "",
+        "actionNode": ""
+      }
+    },
+    "timer": {
+      "type": "script\\TimerScript",
+      "x": 128,
+      "y": 64,
+      "props": {
+        "interval": "1000",
+        "repeatable": "1",
+        "autoStart": "1"
+      }
+    },
+    "scriptor": {
+      "type": "script\\TimerScript",
+      "x": 400,
+      "y": 64,
+      "props": {
+        "interval": 10,
+        "repeatable": false,
+        "autoStart": false
+      }
+    },
+    "search": {
+      "type": "script\\MacroScript",
+      "x": 624,
+      "y": 16,
+      "props": {
+        "runOnApply": false
+      }
+    }
+  }
+}

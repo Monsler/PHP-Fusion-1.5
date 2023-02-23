@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480" prefWidth="592" styleClass="">
+  <children>
+    <Button AnchorPane.bottomAnchor="0" AnchorPane.rightAnchor="0" alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="button" layoutX="368" layoutY="440" prefHeight="40" prefWidth="224" styleClass="button " text="Запуск" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="Consolas" size="17"/>
+      </font>
+    </Button>
+    <Data cursor="HAND" enabled="1" id="data-button" visible="1"/>
+    <ListViewEx AnchorPane.bottomAnchor="192" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="32" editable="false" fixedCellSize="-3" focusTraversable="true" id="listView" layoutX="368" layoutY="32" prefHeight="256" prefWidth="224" styleClass="list-view ">
+      <items xmlns:fx="http://javafx.com/fxml">
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="--Интерфейс"/>
+          <String fx:value="Создать форму"/>
+          <String fx:value="Создать панель"/>
+          <String fx:value="Создать список"/>
+          <String fx:value="Создать текстовое поле"/>
+          <String fx:value="Создать флажок"/>
+          <String fx:value="Создать кнопку"/>
+          <String fx:value="Создать текст"/>
+          <String fx:value="Создать таймер"/>
+          <String fx:value="Создать скрипт"/>
+          <String fx:value="Создать фигуру"/>
+          <String fx:value="--Управление"/>
+          <String fx:value="Спросить у пользователя"/>
+          <String fx:value="Удалить объект"/>
+          <String fx:value="Если значения не равны"/>
+          <String fx:value="Если значения равны"/>
+          <String fx:value="Если флажок включён"/>
+          <String fx:value="Если флажок выключен"/>
+          <String fx:value="Если иное"/>
+          <String fx:value="Установить текст кнопке"/>
+          <String fx:value="Добавить объект на форму"/>
+          <String fx:value="Установить курсор руки"/>
+          <String fx:value="Установить мин. размер формы"/>
+          <String fx:value="Добавить код"/>
+          <String fx:value="Показать форму"/>
+          <String fx:value="Скрыть форму"/>
+          <String fx:value="Глобализовать переменную"/>
+          <String fx:value="Добавить к переменной"/>
+          <String fx:value="Установить переменной"/>
+          <String fx:value="Установить переменной текст из поля"/>
+          <String fx:value="Изменить текст объекта"/>
+          <String fx:value="Показать сообщение"/>
+          <String fx:value="Включить таймер"/>
+          <String fx:value="Выключить таймер"/>
+          <String fx:value="Повторять N раз"/>
+          <String fx:value="Закрыть событие управления"/>
+          <String fx:value="Запустить скрипт"/>
+          <String fx:value="Отключить расширение формы"/>
+          <String fx:value="Включить расширение формы"/>
+          <String fx:value="Установить иконку форме"/>
+          <String fx:value="Установить цвет фона форме"/>
+          <String fx:value="Установить заголовок форме"/>
+          <String fx:value="Завершить приложение"/>
+          <String fx:value="Растягивание влево и вправо"/>
+          <String fx:value="Растягивание вправо"/>
+          <String fx:value="Растягивание влево"/>
+          <String fx:value="Растягивание книзу"/>
+          <String fx:value="Растягивание книзу и вправо"/>
+          <String fx:value="Растягивание книзу и вверх"/>
+          <String fx:value="Растягивание вниз, влево, вправо"/>
+          <String fx:value="Растягивание во всю форму"/>
+          <String fx:value="Установить размер объекта"/>
+          <String fx:value="Убрать растягивание"/>
+          <String fx:value="Выравнивание текста по центру"/>
+          <String fx:value="Включить флажок"/>
+          <String fx:value="Отключить флажок"/>
+          <String fx:value="Добавить элемент к списку"/>
+          <String fx:value="Если выбран элемент списка"/>
+          <String fx:value="Удалить все элементы списка"/>
+          <String fx:value="Вывести ошибку в консоль"/>
+          <String fx:value="Вывести сообщение в консоль"/>
+          <String fx:value="Сохранить значение"/>
+          <String fx:value="Считать значение в переменную"/>
+          <String fx:value="Если значение считано"/>
+          <String fx:value="Получить версию среды"/>
+          <String fx:value="Установить цвет фона объекта"/>
+          <String fx:value="Комментарий, заметка"/>
+          <String fx:value="--Перемещение"/>
+          <String fx:value="Переместить объект"/>
+          <String fx:value="Изменить позицию X"/>
+          <String fx:value="Установить позицию X"/>
+          <String fx:value="Изменить позицию Y"/>
+          <String fx:value="Установить позицию Y"/>
+          <String fx:value="Повернуть объект"/>
+          <String fx:value="Установить размер интерфейса"/>
+          <String fx:value="--Медиа"/>
+          <String fx:value="Создать звук"/>
+          <String fx:value="Проиграть звук"/>
+          <String fx:value="Остановить звук"/>
+          <String fx:value="Приостановить звук"/>
+          <String fx:value="Установить громкость звука"/>
+          <String fx:value="--Интернет"/>
+          <String fx:value="Открыть ссылку в браузере"/>
+          <String fx:value="--События"/>
+          <String fx:value="При старте скрипта"/>
+          <String fx:value="При нажатии на объект"/>
+          <String fx:value="При закрытии формы"/>
+          <String fx:value="При работе таймера"/>
+          <String fx:value="При нажатии на задний фон"/>
+          <String fx:value="Курсор на объекте"/>
+          <String fx:value="Закрыть событие"/>
+        </FXCollections>
+      </items>
+    </ListViewEx>
+    <Data cursor="HAND" enabled="1" id="data-listView" visible="1"/>
+    <ListViewEx AnchorPane.bottomAnchor="160" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="224" AnchorPane.topAnchor="0" editable="false" fixedCellSize="-1" focusTraversable="true" id="listViewAlt" layoutX="0" layoutY="0" prefHeight="320" prefWidth="368" styleClass="list-view ">
+      <items xmlns:fx="http://javafx.com/fxml">
+        <FXCollections fx:factory="observableArrayList"/>
+      </items>
+    </ListViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-listViewAlt" visible="1"/>
+    <Button AnchorPane.bottomAnchor="40" AnchorPane.rightAnchor="0" alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="buttonAlt" layoutX="368" layoutY="400" prefHeight="40" prefWidth="224" styleClass="button " text="Удалить последний" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="Consolas" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="HAND" enabled="1" id="data-buttonAlt" visible="1"/>
+    <Button AnchorPane.bottomAnchor="80" AnchorPane.rightAnchor="0" alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="button3" layoutX="368" layoutY="360" prefHeight="40" prefWidth="224" styleClass="button " text="Удалить всё" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="Consolas" size="18"/>
+      </font>
+    </Button>
+    <Data cursor="HAND" enabled="1" id="data-button3" visible="1"/>
+    <Button AnchorPane.bottomAnchor="120" AnchorPane.rightAnchor="0" alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="button4" layoutX="368" layoutY="320" prefHeight="40" prefWidth="224" styleClass="button " text="Собрать" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="Consolas" size="18"/>
+      </font>
+    </Button>
+    <Data cursor="HAND" enabled="1" id="data-button4" visible="1"/>
+    <Data cursor="HAND" enabled="1" id="data-button5" visible="1"/>
+    <TextField AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit" layoutX="368" layoutY="0" prefColumnCount="12" prefHeight="32" prefWidth="224" promptText="Поиск" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-edit" visible="1"/>
+    <TextArea AnchorPane.bottomAnchor="64" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="224" editable="false" focusTraversable="true" id="textArea" layoutX="0" layoutY="320" prefColumnCount="40" prefHeight="96" prefWidth="368" promptText="Отладка" styleClass="text-input text-area " text="[ ИНФО ] Добро пожаловать!&#10;" wrapText="false">
+      <font>
+        <Font name="Consolas" size="17"/>
+      </font>
+    </TextArea>
+    <Data cursor="DEFAULT" enabled="1" id="data-textArea" visible="1"/>
+    <FlatButton AnchorPane.bottomAnchor="32" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="224" alignment="CENTER" clickColor="#999999" color="#4d4d4d" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#808080" id="button5" layoutX="0" layoutY="416" prefHeight="32" prefWidth="368" styleClass="x-flat-button " text="Очистить консоль" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Consolas" size="15"/>
+      </font>
+    </FlatButton>
+    <FlatButton AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="224" alignment="CENTER" clickColor="#999999" color="#4d4d4d" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#808080" id="button6" layoutX="0" layoutY="448" prefHeight="32" prefWidth="368" styleClass="x-flat-button " text="Редактор выражений" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Consolas" size="15"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" id="data-button6" visible="1"/>
+    <FlatButton alignment="CENTER" clickColor="#999999" color="#4d4d4d" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#808080" id="button7" layoutX="368" layoutY="288" prefHeight="32" prefWidth="224" styleClass="x-flat-button " text="Коллекция" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Consolas" size="16"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" id="data-button7" visible="1"/>
+  </children>
+</AnchorPane>

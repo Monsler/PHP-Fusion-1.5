@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="328" prefWidth="616" styleClass="">
+  <children>
+    <TextField AnchorPane.leftAnchor="8" AnchorPane.rightAnchor="224" AnchorPane.topAnchor="8" alignment="CENTER_LEFT" editable="false" focusTraversable="true" id="edit" layoutX="8" layoutY="8" prefColumnCount="12" prefHeight="32" prefWidth="424" promptText="Выражение" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="Consolas" size="16"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-edit" visible="1"/>
+    <ListViewEx AnchorPane.bottomAnchor="8" AnchorPane.rightAnchor="8" AnchorPane.topAnchor="8" editable="false" fixedCellSize="-1" focusTraversable="true" id="listView" layoutX="400" layoutY="8" prefHeight="312" prefWidth="208" styleClass="list-view ">
+      <items xmlns:fx="http://javafx.com/fxml">
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Получить Х объекта"/>
+          <String fx:value="Получить Y объекта"/>
+          <String fx:value="Получить ширину объекта"/>
+          <String fx:value="Получить высоту объекта"/>
+          <String fx:value="Соеденить строку"/>
+          <String fx:value="Получить выбр. элемент списка"/>
+        </FXCollections>
+      </items>
+    </ListViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-listView" visible="1"/>
+    <FlatButton AnchorPane.rightAnchor="224" AnchorPane.topAnchor="48" alignment="CENTER" clickColor="#b3b3b3" color="#999999" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d4d4d" id="button" layoutX="352" layoutY="48" prefHeight="40" prefWidth="40" styleClass="x-flat-button " text="+" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="21"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" id="data-button" visible="1"/>
+    <FlatButton AnchorPane.rightAnchor="272" AnchorPane.topAnchor="48" alignment="CENTER" clickColor="#b3b3b3" color="#999999" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d4d4d" id="buttonAlt" layoutX="304" layoutY="48" prefHeight="40" prefWidth="40" styleClass="x-flat-button " text="-" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="21"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" id="data-buttonAlt" visible="1"/>
+    <FlatButton AnchorPane.bottomAnchor="8" AnchorPane.leftAnchor="8" AnchorPane.rightAnchor="224" alignment="CENTER" clickColor="#b3b3b3" color="#999999" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d4d4d" id="button3" layoutX="8" layoutY="280" prefHeight="40" prefWidth="424" styleClass="x-flat-button " text="Копировать" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Consolas" size="21"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" id="data-button3" visible="1"/>
+    <FlatButton AnchorPane.rightAnchor="320" AnchorPane.topAnchor="48" alignment="CENTER" clickColor="#b3b3b3" color="#999999" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d4d4d" id="button4" layoutX="256" layoutY="48" prefHeight="40" prefWidth="40" styleClass="x-flat-button " text="÷" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="21"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" id="data-button4" visible="1"/>
+    <Separator AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="216" AnchorPane.topAnchor="96" focusTraversable="false" id="separator" layoutX="0" layoutY="96" orientation="HORIZONTAL" prefHeight="8" prefWidth="440" styleClass="separator "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-separator" visible="1"/>
+    <FlatButton AnchorPane.rightAnchor="368" AnchorPane.topAnchor="48" alignment="BOTTOM_CENTER" clickColor="#b3b3b3" color="#999999" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d4d4d" id="button5" layoutX="208" layoutY="48" prefHeight="40" prefWidth="40" styleClass="x-flat-button " text="*" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="21"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" id="data-button5" visible="1"/>
+  </children>
+</AnchorPane>

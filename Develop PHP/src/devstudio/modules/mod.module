@@ -1,0 +1,16 @@
+{
+  "props": [],
+  "components": {
+    "FileChooser": {
+      "type": "script\\DirectoryChooserScript",
+      "x": 480,
+      "y": 160,
+      "props": {
+        "title": "Выберите папку для сборки",
+        "initialDirectory": "C:/",
+        "inputNode": "",
+        "actionNode": ""
+      }
+    }
+  }
+}
